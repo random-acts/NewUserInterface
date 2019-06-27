@@ -4,6 +4,7 @@
         padding: 0;
         position: relative; 
         width: 100%; 
+        height: 100%; 
         background: linear-gradient(#52a577, #57606f); 
         font: Montserrat; 
     }
@@ -45,6 +46,7 @@
         align-items: center; 
     }
 
+
     /* To align content  */
     
     .align-divs {
@@ -84,10 +86,19 @@
 
     .large {
         transform: scale(1.3); 
+        z-index: 1; 
     }
 
     /* Part of DOM JS function. Allows div to pop */
 
+    .highlight {
+        color: green; 
+    }
+
+    a:hover {
+        background: #52a577; 
+        color: white;
+    }
 
     .child-box2 {
         width: 103rem;
@@ -140,7 +151,8 @@
     }
 
     .increase-width {
-        width: 50rem; 
+        /* width: 50rem;  */
+        width: 100%; 
     }
 
     .navbar nav a{
