@@ -1,13 +1,11 @@
 // mouseover
-const popBox = document.querySelector(".child-box");
-popBox.addEventListener("mouseover", function (e) {
-  popBox.classList.toggle("large"); 
-});
+const popBox = document.querySelectorAll(".child-box");
+popBox.forEach(box => {
+  box.addEventListener("mouseover", e => {
+    box.classList.toggle("large");
+  });
+})
 
-// const popBox = document.querySelector(".shelby");
-// popBox.addEventListener('mouseover', function (e) {
-//   popBox.classList.toggle('large');
-// });
 
 // ----- Click -----
 const test = document.querySelector(".parent-container1 h1"); 
