@@ -41,6 +41,7 @@
 }
 .tabs {
   width: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 .tabs .tabs-items {
   width: 100%;
@@ -198,8 +199,10 @@ h1 {
   font-size: 0.8 rem;
   padding: auto;
   color: black;
+  font-family: "Montserrat", sans-serif;
 }
 .stories h2 {
   font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
 }
-/*Table with user names/stories */
+/* Tabs.less file holds the table with the tabs*/
