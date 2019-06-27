@@ -6,13 +6,13 @@ popBox.forEach(box => {
   });
 }); 
 
-
 // ----- mouseout -----
 const test = document.querySelector(".parent-container1 h1"); 
 test.addEventListener("mouseout", event => {
     test.textContent = "Team Work Makes the Dream Work!"; 
 }); 
 
+display 
 
 
 
