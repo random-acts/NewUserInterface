@@ -197,6 +197,28 @@ h1 {
         width: 1430px;
     }
 
+    .dropdown {
+        
+        font-size: 40px;
+        width: 250px;
+        margin-top:-800px;
+}
+
+.dropdownFunction {
+    font-size: 40px;
+        width: 250px;
+       
+}
+
+.loginButton {
+    
+        font-size: 40px;
+        width: 250px;
+        height: 95px;
+        margin-top:-135px;
+        margin-left: 700px;
+        justify-content: center;
+}
 
 .header {
     
@@ -259,6 +281,15 @@ h1{
 /* iPAD ////////////////// */
 
 @media (max-width: 800px) {
+
+    .dropdown {
+        display: none;
+    }
+
+    .loginButton {
+margin-left: 500px;
+margin-top: -1150px;
+    }
 
     #particles-js {
         height: 140%;
@@ -327,6 +358,17 @@ h1{
 
 
 @media (max-width: 600px) {
+
+.dropdown {
+    display: none;
+}
+
+.loginButton {
+    margin-top: 100px;
+    font-size: 200px;
+    width: 700px;
+    height: 300px;
+}
 
     .homePageMain {
         
