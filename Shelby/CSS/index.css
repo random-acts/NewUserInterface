@@ -67,18 +67,6 @@
   display: flex;
   background-color: black;
 }
-.tabs .tabImg {
-  display: flexbox;
-  border-radius: 50px;
-  height: 150px;
-  width: 100px;
-}
-.tabs .tabImg1 {
-  display: flexbox;
-  border-radius: 50px;
-  height: 110px;
-  width: 150px;
-}
 .tabs .tabs-link {
   padding: 20px 20px;
   font-size: 24px;
@@ -99,17 +87,17 @@
 .tabs a .tabs-link-selected:hover {
   background-color: white;
 }
-.main-container-zxc {
-  display: flex;
-  background-color: orange;
-}
 body {
   min-width: 300px;
   width: 100%;
   height: 100%;
   background: white;
+  /*FAQ page  */
+  /* Heading / Nav Bar */
+  /* User Stories Page */
+  /* Heading and Intro paragraph*/
 }
-.header-container {
+body .header-container {
   width: 100%;
   height: 50px;
   display: flex;
@@ -117,10 +105,10 @@ body {
   align-items: center;
   background-color: black;
 }
-.header-container .header {
+body .header-container .header {
   height: 50px;
 }
-.section {
+body .section {
   width: 70%;
   margin: 45px;
   display: flex;
@@ -129,17 +117,15 @@ body {
   box-shadow: 1px 1px 5px black;
   overflow: hidden;
 }
-.section .box {
+body .section .box {
   padding: 40px;
 }
-.section .box .box-title {
+body .section .box .box-title {
   font-size: 24px;
   padding-bottom: 10px;
   font-weight: bold;
 }
-/*FAQ page  */
-/* Heading / Nav Bar */
-.questions {
+body .questions {
   -webkit-box-shadow: inset -7px -4px 5px 0px #52a577;
   -moz-box-shadow: inset -7px -4px 5px 0px #52a577;
   box-shadow: inset -7px -4px 5px 0px #52a577;
@@ -151,34 +137,34 @@ body {
   margin: 15px;
   font-family: "Berkshire Swash", cursive;
 }
-.questions nav {
+body .questions nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
-.questions nav a {
+body .questions nav a {
   text-decoration: none;
   font-size: 0.8 rem;
   padding: auto;
   color: black;
 }
-.questions p {
+body .questions p {
   font-size: 25px;
 }
-h1 {
+body h1 {
   width: 350px;
   padding: 20px;
   text-align: center;
   margin-left: 400px;
   font-size: 4rem;
 }
-.orderedlist {
+body .orderedlist {
   display: flex;
   flex-wrap: wrap;
   background: linear-gradient(#52a577, #57606f);
 }
-.orderedlist .list {
+body .orderedlist .list {
   padding: 25px;
   width: 60%;
   margin: 0 auto;
@@ -186,16 +172,14 @@ h1 {
   padding-top: 50px;
   background: #d0d0d0;
 }
-.orderedlist .list p {
+body .orderedlist .list p {
   margin: 35px;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 1.2rem;
   text-decoration: none;
 }
-/* User Stories Page */
-/* Heading and Intro paragraph*/
-.stories {
+body .stories {
   box-shadow: 10px 10px 5px #52a577;
   display: flex;
   flex-direction: column;
@@ -204,21 +188,37 @@ h1 {
   margin: 15px;
   font-family: "Berkshire Swash", cursive;
 }
-.stories nav {
+body .stories nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
-.stories nav a {
+body .stories nav a {
   text-decoration: none;
   font-size: 0.8 rem;
   padding: auto;
   color: black;
   font-family: "Montserrat", sans-serif;
 }
-.stories h2 {
+body .stories h2 {
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
 }
-/* Tabs.less file holds the table with the tabs*/
+@media (max-width: 800px) {
+  body {
+    width: 100%;
+    background: purple;
+  }
+  .questions h1 {
+    margin-left: 200px;
+  }
+}
+@media (max-width: 800px) and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  .questions h1 {
+    margin-left: 0px;
+  }
+}
