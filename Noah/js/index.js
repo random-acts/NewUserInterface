@@ -13,12 +13,8 @@ test.addEventListener("mouseout", event => {
 }); 
 
 
-const team = ["Jake Thomas", "Andrew Brudnak", "Carlos Santana", "Noah Franco", "Michael Baynon"]
-const group = team.filter((element) => {
-  return element > document.querySelector("#two")
-}) 
 
-console.log()
+
 
 
 
