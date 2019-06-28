@@ -208,9 +208,11 @@ body .stories h2 {
 @media (max-width: 800px) {
   body {
     width: 100%;
-    background: purple;
   }
   .questions h1 {
+    margin-left: 200px;
+  }
+  .stories h1 {
     margin-left: 200px;
   }
 }
@@ -219,6 +221,9 @@ body .stories h2 {
     width: 100%;
   }
   .questions h1 {
+    margin-left: 0px;
+  }
+  .stories h1 {
     margin-left: 0px;
   }
 }
